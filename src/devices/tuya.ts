@@ -4573,6 +4573,7 @@ export const definitions: DefinitionWithExtend[] = [
             {vendor: "Smart9", model: "S9TSZGB"},
             {vendor: "Lonsonho", model: "TS0043"},
             {vendor: "LoraTap", model: "SS600ZB"},
+            tuya.whitelabel("LoraTap", "SS600ZB-V2-V5S", "Zigbee 3 Gang Rmote", ["_TZ3000_famkxci2"]),
         ],
         exposes: [e.battery(), e.action(["1_single", "1_double", "1_hold", "2_single", "2_double", "2_hold", "3_single", "3_double", "3_hold"])],
         fromZigbee: [tuya.fz.on_off_action, fz.battery],
